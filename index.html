@@ -17,7 +17,7 @@
     <div class="nav-container">
       <a href="#home" class="brand">
         <span class="brand-badge">msis.io</span>
-        <span class="brand-name">Md Samiul Islam Sagar</span>
+        <!-- <span class="brand-name">Md Samiul Islam Sagar</span> -->
       </a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation menu" />
       <label for="nav-toggle" class="nav-toggle-label">
@@ -61,8 +61,8 @@
         <figure class="media-frame">
           <img src="./home/photos/profile.JPG" alt="Md Samiul Islam Sagar — Electrical Engineering Researcher" loading="eager" />
           <figcaption class="media-caption">
-            Md Samiul Islam Sagar<br />
-            <span class="media-path-tag">./home/photos/profile.JPG</span>
+            Yes, thats me...<br />
+            <!-- <span class="media-path-tag">./home/photos/profile.JPG</span> -->
           </figcaption>
         </figure>
       </div>
@@ -91,24 +91,31 @@
         </div>
       </div>
 
-      <!-- Home Lab Overview Media (./home/videos/ and ./home/photos/) -->
+      <!-- Home Lab Overview Media (YouTube Video + 1:49 Frame Photo Card) -->
       <div class="card-grid-2">
-        <figure class="media-frame">
-          <video controls preload="metadata" poster="./home/photos/lab-poster.jpg">
-            <source src="./home/videos/research-overview.mp4" type="video/mp4" />
-            Your browser does not support HTML5 video.
-          </video>
+        <!-- Column 1: YouTube Video (Plays 1:35 to 2:05) -->
+        <figure class="media-frame youtube-embed-card">
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/jh1j5oGe6OU?start=95&end=125&rel=0&modestbranding=1"
+              title="Innovate UA: Research & Battery Management Systems Impact"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
           <figcaption class="media-caption">
-            AI-Driven SoH &amp; BMS Research Overview<br />
-            <span class="media-path-tag">./home/videos/research-overview.mp4</span>
+            Energy &amp; Power Electronics Systems and Devices Laboratory (UA)<br />
+            <span class="media-path-tag">YouTube: jh1j5oGe6OU (1:35 &ndash; 2:05)</span>
           </figcaption>
         </figure>
 
+        <!-- Column 2: Photo Card (Featuring the 1:49 timestamp video frame) -->
         <figure class="media-frame">
-          <img src="./home/photos/lab-setup.jpg" alt="Energy and Power Electronics Systems and Devices Laboratory Setup" loading="lazy" />
+          <img src="https://img.youtube.com/vi/jh1j5oGe6OU/hqdefault.jpg" alt="Video frame preview at 1:49" loading="lazy" />
           <figcaption class="media-caption">
-            Energy &amp; Power Electronics Systems and Devices Laboratory (UA)<br />
-            <span class="media-path-tag">./home/photos/lab-setup.jpg</span>
+            Laboratory Feature Frame (1:49 Timestamp Snapshot)<br />
+            <span class="media-path-tag">YouTube Frame Preview (1:49)</span>
           </figcaption>
         </figure>
       </div>
