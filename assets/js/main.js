@@ -418,26 +418,3 @@ function initPublicationLiveSearch() {
     });
   });
 }
-
-/* --------------------------------------------------------------------------
-   Click-to-Play YouTube Poster Frame Handler (1:49 preview -> 1:35 to 2:05 play)
-   -------------------------------------------------------------------------- */
-function loadYouTubeVideo() {
-  const card = document.getElementById("youtube-poster-card");
-  if (!card) return;
-
-  const videoContainer = card.querySelector(".video-preview-overlay");
-  if (!videoContainer) return;
-
-  // Replace preview thumbnail with the responsive YouTube iframe (autoplay enabled, start=95, end=125)
-  videoContainer.outerHTML = `
-    <div class="video-container">
-      <iframe
-        src="https://www.youtube-nocookie.com/embed/jh1j5oGe6OU?autoplay=1&start=95&end=125&rel=0&modestbranding=1"
-        title="Innovate UA: Research & Battery Management Systems Impact"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-    </div>
-  `;
-}
