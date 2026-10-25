@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <!-- Content Security Policy & Referrer Hardening -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>msis.io</title>
+  <meta name="description" content="Biographical & Research Portfolio of Md Samiul Islam Sagar — Ph.D. Candidate in Electrical Engineering at the University of Alabama specializing in AI-based Battery Management Systems (BMS), Power Electronics, and Smart Sensing." />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Sticky Responsive Navigation Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#home" class="brand">
+        <span class="brand-badge">msis.io</span>
+        <span class="brand-name">Md Samiul Islam Sagar</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation menu" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span class="hamburger-icon">&#9776;</span> Menu
+      </label>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#research" class="nav-link">Research &amp; Skills</a></li>
+        <li><a href="#publications" class="nav-link">Publications (18+)</a></li>
+        <li><a href="#experience" class="nav-link">Experience &amp; Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Awards &amp; Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================================
+         1. HOME SECTION (Media in ./home/photos/ and ./home/videos/)
+         ==================================================================== -->
+    <section id="home" class="scroll-section">
+      <div class="hero">
+        <div class="hero-content">
+          <span class="eyebrow">Ph.D. Candidate &bull; University of Alabama</span>
+          <h1>Md Samiul Islam <span class="gradient-text">Sagar</span></h1>
+          <p class="hero-role">
+            Graduate Research Assistant in Electrical Engineering &bull; Energy and Power Electronics Systems and Devices Laboratory
+          </p>
+          <p class="hero-bio">
+            Specializing in <strong>AI-based Battery Management Systems (BMS)</strong> for inverter-based energy resources, online State of Charge (SoC) and State of Health (SoH) estimation, observer design, and predictive health monitoring. Contributor to <strong>U.S. Department of Energy (DoE)</strong> and <strong>National Science Foundation (NSF)</strong> projects focused on battery modeling, intelligent control, and secure integration of storage into power electronics-dominated grids.
+          </p>
+          <div class="btn-group">
+            <a href="#publications" class="btn btn-primary">Explore Publications &rarr;</a>
+            <a href="#research" class="btn btn-outline">Research Thrusts</a>
+            <a href="./assets/Resume_Md_Samiul_Islam_Sagar.pdf" class="btn btn-outline" target="_blank" rel="noopener">Download CV (PDF)</a>
+            <a href="https://www.linkedin.com/in/msi-sami" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <!-- Home Profile Photo (./home/photos/profile.jpg) -->
+        <figure class="media-frame">
+          <img src="./home/photos/profile.jpg" alt="Md Samiul Islam Sagar — Electrical Engineering Researcher" loading="eager" />
+          <figcaption class="media-caption">
+            Md Samiul Islam Sagar<br />
+            <span class="media-path-tag">./home/photos/profile.jpg</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Impact Metrics Bar -->
+      <div class="stats-grid" aria-label="Research Impact Metrics">
+        <div class="stat-card">
+          <div class="stat-number">18+</div>
+          <div class="stat-label">Peer-Reviewed Papers</div>
+          <div class="stat-sub">Journals (IF up to 6.3) &amp; IEEE Conferences</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">155+</div>
+          <div class="stat-label">Research Citations</div>
+          <div class="stat-sub">AI, Battery Health, RF &amp; Gas Sensors</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">DoE &amp; NSF</div>
+          <div class="stat-label">Federally Funded R&amp;D</div>
+          <div class="stat-sub">Grid Storage &amp; Intelligent BMS</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1 MW</div>
+          <div class="stat-label">SiC HVDC Architecture</div>
+          <div class="stat-sub">1500 Vdc EV Fast-Charging R&amp;D</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">4.00 / 4.00</div>
+          <div class="stat-label">M.S. GPA (WSU)</div>
+          <div class="stat-sub">Electrical Engineering &bull; May 2023</div>
+        </div>
+      </div>
+
+      <!-- Home Lab Overview Media (./home/videos/ and ./home/photos/) -->
+      <div class="card-grid-2">
+        <figure class="media-frame">
+          <video controls preload="metadata" poster="./home/photos/lab-poster.jpg">
+            <source src="./home/videos/research-overview.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <figcaption class="media-caption">
+            AI-Driven SoH &amp; BMS Research Overview<br />
+            <span class="media-path-tag">./home/videos/research-overview.mp4</span>
+          </figcaption>
+        </figure>
+
+        <figure class="media-frame">
+          <img src="./home/photos/lab-setup.jpg" alt="Energy and Power Electronics Systems and Devices Laboratory Setup" loading="lazy" />
+          <figcaption class="media-caption">
+            Energy &amp; Power Electronics Systems and Devices Laboratory (UA)<br />
+            <span class="media-path-tag">./home/photos/lab-setup.jpg</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- ====================================================================
+         2. RESEARCH & SKILLS SECTION (Media in ./research/photos/ & ./research/videos/)
+         ==================================================================== -->
+    <section id="research" class="scroll-section">
+      <div class="section-header">
+        <span class="eyebrow">Research Thrusts &amp; Technical Arsenal</span>
+        <h2 class="section-title">Interdisciplinary Research &amp; Laboratory Capabilities</h2>
+        <p class="section-subtitle">
+          Bridging machine learning, electrochemical impedance diagnostics, Silicon Carbide (SiC) power electronics, and Class 100 cleanroom microfabrication.
+        </p>
+      </div>
+
+      <div class="card-grid-2" style="margin-bottom: 2rem;">
+        <article class="card">
+          <div>
+            <span class="tag tag-cyan">DoE &amp; NSF Funded Doctoral Research</span>
+            <h3>1. AI-Driven Battery Health (SoH) &amp; SoC Estimation</h3>
+            <p>
+              At the University of Alabama (supervised by Dr. Jaber A. Abu Qahouq), my research advances intelligent Battery Management Systems (BMS) and health-aware charge control schemes:
+            </p>
+            <ul>
+              <li><strong>Consecutive CC Charging Segments:</strong> LSTM-ensembled deep learning frameworks for online SoH estimation in batteries with moderate to high degradation.</li>
+              <li><strong>Impedance &amp; Voltage Relaxation:</strong> Partial Electrochemical Impedance Spectroscopy (EIS), multi-view cross-geometry SoH estimators, and ML-based Equivalent Circuit Model (ECM) parameter identification across SoCs and cycling temperatures.</li>
+              <li><strong>Hybrid Observer Design:</strong> Gradient-Boosted Extended Kalman Filters (GB-EKF) as well as linear and non-linear observers for real-time state estimation.</li>
+            </ul>
+          </div>
+          <figure class="media-frame">
+            <img src="./research/photos/bms-testing-setup.jpg" alt="Arbin, Squidstat, and Gamry EIS Battery Testing Setup" loading="lazy" />
+            <figcaption class="media-caption">
+              Arbin, Squidstat &amp; Gamry EIS Testing Setup<br />
+              <span class="media-path-tag">./research/photos/bms-testing-setup.jpg</span>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="tag tag-teal">Microfabrication, RF &amp; Smart Sensing</span>
+            <h3>2. Harsh-Environment Ceramic Antennas &amp; E-Nose AI</h3>
+            <p>
+              At Washington State University Vancouver (supervised by Dr. Praveen Sekhar), I integrated cleanroom fabrication, additive printing, and machine learning:
+            </p>
+            <ul>
+              <li><strong>High-Temperature YSZ Ceramic Antennas:</strong> Class 100 cleanroom fabrication (photolithography, sputtering, etching) of microstrip patch antennas on 3-mole Yttria-Stabilized Zirconia (YSZ) substrates and RF T-resonator characterization.</li>
+              <li><strong>Inkjet-Printed Flexible Antennas:</strong> Designed and fabricated 7 flexible and rigid UWB, mmWave 5G/6G, and circularly polarized antennas using nanoparticle inkjet printing and LPKF milling.</li>
+              <li><strong>Gas Sensor Drift Compensation:</strong> Developed AI models to compensate for long-term drift in gas sensors.</li>
+            </ul>
+          </div>
+          <figure class="media-frame">
+            <img src="./research/photos/cleanroom-ysz-antenna.jpg" alt="YSZ Ceramic and Inkjet-Printed Flexible Antennas" loading="lazy" />
+            <figcaption class="media-caption">
+              YSZ Ceramic &amp; Inkjet-Printed Antenna Prototypes<br />
+              <span class="media-path-tag">./research/photos/cleanroom-ysz-antenna.jpg</span>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+
+      <!-- Research Video Slot (./research/videos/soh-estimation-demo.mp4) -->
+      <figure class="media-frame" style="margin-bottom: 2.5rem;">
+        <video controls preload="metadata" poster="./research/photos/soh-workflow-poster.jpg">
+          <source src="./research/videos/soh-estimation-demo.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+        <figcaption class="media-caption">
+          Experimental Data Acquisition &amp; AI SoH Estimation Workflow<br />
+          <span class="media-path-tag">./research/videos/soh-estimation-demo.mp4</span>
+        </figcaption>
+      </figure>
+
+      <!-- 6-Pillar Technical Skills Matrix -->
+      <div class="card-grid">
+        <div class="card">
+          <div>
+            <h3>Battery Systems &amp; Electrochemistry</h3>
+            <ul>
+              <li><strong>Arbin &amp; Squidstat (Admiral):</strong> Cell and module-level battery cycling and testing.</li>
+              <li><strong>Gamry Potentiostat:</strong> Electrochemical Impedance Spectroscopy (EIS).</li>
+              <li><strong>GT-Suite:</strong> Battery modeling, aging prediction, and thermal performance evaluation.</li>
+              <li><strong>Algorithms:</strong> AI-based SoC/SoH estimation, linear and non-linear observer design.</li>
+            </ul>
+          </div>
+          <div class="tag-list">
+            <span class="tag tag-cyan">Arbin</span>
+            <span class="tag tag-cyan">Squidstat</span>
+            <span class="tag tag-cyan">Gamry EIS</span>
+            <span class="tag tag-cyan">GT-Suite</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <h3>AI, Machine Learning &amp; Programming</h3>
+            <ul>
+              <li><strong>Languages:</strong> C, C++, Python, MATLAB, SQL.</li>
+              <li><strong>AI Frameworks:</strong> TensorFlow, PyTorch (LSTM ensembles, R-CNN, Deep RL, Gradient Boosting).</li>
+              <li><strong>Data Science:</strong> NumPy, SciPy, Pandas for large-scale sensor and clinical biomarker datasets.</li>
+            </ul>
+          </div>
+          <div class="tag-list">
+            <span class="tag tag-teal">TensorFlow</span>
+            <span class="tag tag-teal">PyTorch</span>
+            <span class="tag tag-teal">Python</span>
+            <span class="tag tag-teal">MATLAB</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <h3>Power Electronics &amp; Control</h3>
+            <ul>
+              <li><strong>Converter Control:</strong> DC-DC converter control algorithms with hardware implementation.</li>
+              <li><strong>Wide-Bandgap HVDC:</strong> 1 MW, 1500 Vdc Silicon Carbide (SiC) EV fast-charging station simulation.</li>
+              <li><strong>PCB Design &amp; QA:</strong> Altium Designer for layout; LPKF S104 for rapid prototyping, QA, and testing.</li>
+            </ul>
+          </div>
+          <div class="tag-list">
+            <span class="tag tag-amber">SiC 1500 Vdc</span>
+            <span class="tag tag-amber">Altium Designer</span>
+            <span class="tag tag-amber">LPKF S104</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <h3>Cleanroom Fabrication &amp; Prototyping</h3>
+            <ul>
+              <li><strong>Class 100 Cleanroom:</strong> Photolithography, etching, and sputtering.</li>
+              <li><strong>Substrates:</strong> Flexible substrates and high-temperature tolerant ceramics (3-mole YSZ).</li>
+              <li><strong>Additive &amp; Milling:</strong> Fujifilm Dimatix inkjet printing and LPKF S104 PCB/antenna milling.</li>
+            </ul>
+          </div>
+          <div class="tag-list">
+            <span class="tag tag-crimson">Class 100 Cleanroom</span>
+            <span class="tag tag-crimson">YSZ Ceramics</span>
+            <span class="tag tag-crimson">Inkjet Printing</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <h3>Modeling, Simulation &amp; CAD Tools</h3>
+            <ul>
+              <li><strong>Power &amp; Circuits:</strong> MATLAB/Simulink, LTspice, and PLECS for circuit and control simulation.</li>
+              <li><strong>Electromagnetics:</strong> ANSYS HFSS for mmWave, UWB, and 5G/6G antenna design.</li>
+              <li><strong>Mechanical CAD:</strong> SolidWorks for mechanical/electrical CAD integration.</li>
+            </ul>
+          </div>
+          <div class="tag-list">
+            <span class="tag">ANSYS HFSS</span>
+            <span class="tag">PLECS / LTspice</span>
+            <span class="tag">SolidWorks</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <h3>IoT &amp; Embedded Systems</h3>
+            <ul>
+              <li><strong>Embedded Platforms:</strong> TI 28379D (C2000 DSP), Arduino, Raspberry Pi.</li>
+              <li><strong>Smart Grid Systems:</strong> IoT-based energy metering, bypass protection, and demand-side load management.</li>
+            </ul>
+          </div>
+          <div class="tag-list">
+            <span class="tag">TI 28379D</span>
+            <span class="tag">Raspberry Pi</span>
+            <span class="tag">Arduino</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- ====================================================================
+         3. PUBLICATIONS SECTION (Media in ./publications/photos/ & ./publications/videos/)
+         ==================================================================== -->
+    <section id="publications" class="scroll-section">
+      <div class="section-header">
+        <span class="eyebrow">Scholarly Output (2019–2026)</span>
+        <h2 class="section-title">Peer-Reviewed Publications &amp; Conference Presentations</h2>
+        <p class="section-subtitle">
+          18 peer-reviewed journal and IEEE conference papers plus 4 international conference presentations. Use the filter buttons or live search bar below to explore by topic.
+        </p>
+      </div>
+
+      <!-- Publications Media Row (./publications/photos/ and ./publications/videos/) -->
+      <div class="card-grid-2" style="margin-bottom: 2rem;">
+        <figure class="media-frame">
+          <img src="./publications/photos/batteries-2026-graphical-abstract.jpg" alt="Graphical Abstract: LSTM-Ensembled Online Battery Health Estimation" loading="lazy" />
+          <figcaption class="media-caption">
+            Featured Journal Highlight: <em>Batteries</em> 2026 (IF ~6.3)<br />
+            <span class="media-path-tag">./publications/photos/batteries-2026-graphical-abstract.jpg</span>
+          </figcaption>
+        </figure>
+
+        <figure class="media-frame">
+          <video controls preload="metadata" poster="./publications/photos/apec-2026-poster.jpg">
+            <source src="./publications/videos/apec-2026-presentation.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <figcaption class="media-caption">
+            IEEE APEC 2026 Research Presentation (San Antonio, TX)<br />
+            <span class="media-path-tag">./publications/videos/apec-2026-presentation.mp4</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Interactive Filter Controls (Pure CSS + JS Live Search) -->
+      <div class="pub-filter-wrapper">
+        <input type="radio" name="pub-filter" id="filter-all" class="pub-radio" checked />
+        <input type="radio" name="pub-filter" id="filter-review" class="pub-radio" />
+        <input type="radio" name="pub-filter" id="filter-journal" class="pub-radio" />
+        <input type="radio" name="pub-filter" id="filter-conf" class="pub-radio" />
+        <input type="radio" name="pub-filter" id="filter-pres" class="pub-radio" />
+
+        <div class="pub-filter-controls">
+          <label for="filter-all" class="pub-filter-label">All Works (22)</label>
+          <label for="filter-review" class="pub-filter-label">Reviews &amp; High-Impact (4)</label>
+          <label for="filter-journal" class="pub-filter-label">Journal Articles (4)</label>
+          <label for="filter-conf" class="pub-filter-label">IEEE Conference Papers (10)</label>
+          <label for="filter-pres" class="pub-filter-label">Presentations (4)</label>
+        </div>
+
+        <div class="pub-list">
+          <!-- Reviews & High-Impact Papers -->
+          <article class="pub-item cat-review">
+            <div class="pub-title">[1] Online Health Estimation of Batteries with Moderate to High Degradation Utilizing LSTM-Ensembled Learning Framework from Consecutive CC Charging Segments</div>
+            <div class="pub-authors"><strong>Sagar, M. S. I.</strong>, Saberi, S., &amp; Abu Qahouq, J. A.</div>
+            <div class="pub-venue">Batteries, 12(9), 331, 2026.</div>
+            <div class="tag-list">
+              <span class="tag tag-cyan">Impact Factor: ~6.3</span>
+              <span class="tag tag-teal">LSTM Ensemble &bull; Battery SoH</span>
+            </div>
+          </article>
+
+          <article class="pub-item cat-review">
+            <div class="pub-title">[2] Review—Modern Data Analysis in Gas Sensors</div>
+            <div class="pub-authors"><strong>Sagar, M. S. I.</strong>, Allison, N. R., Jalajamony, H. M., Fernandez, R. E., &amp; Sekhar, P. K.</div>
+            <div class="pub-venue">Journal of The Electrochemical Society, 169(12):127512, 2022.</div>
+            <div class="tag-list">
+              <span class="tag tag-cyan">Impact Factor: ~4.2</span>
+              <span class="tag tag-amber">Cited 21 times</span>
+            </div>
+          </article>
+
+          <article class="pub-item cat-review">
+            <div class="pub-title">[3] Application of Machine Learning in Electromagnetics: Mini-Review</div>
+            <div class="pub-authors"><strong>Sagar, M. S. I.</strong>, Ouassal, H., Omi, A. I., et al.</div>
+            <div class="pub-venue">Electronics, 10(22):2752, 2021. &bull; <a href="https://doi.org/10.3390/electronics10222752" target="_blank" rel="noopener">DOI: 10.3390/electronics10222752</a></div>
+            <div class="tag-list">
+              <span class="tag tag-cyan">Impact Factor: ~2.4</span>
+              <span class="tag tag-amber">Cited 64 times</span>
+            </div>
+          </article>
+
+          <article class="pub-item cat-review">
+            <div class="pub-title">[4] High Temperature Antennas: A Review</div>
+            <div class="pub-authors">Younes, B., <strong>Sagar, M. S. I.</strong>, Omi, A. I., et al.</div>
+            <div class="pub-venue">Progress in Electromagnetics Research B, 2022.</div>
+            <div class="tag-list">
+              <span class="tag tag-cyan">Impact Factor: ~2.1</span>
+              <span class="tag tag-amber">Cited 15 times</span>
+            </div>
+          </article>
+
+          <!-- Journal Articles - Devices & Interdisciplinary -->
+          <article class="pub-item cat-journal">
+            <div class="pub-title">[5] Inkjet Printed Flexible Dual-Band Dual-Sense Circularly Polarized Patch Antenna</div>
+            <div class="pub-authors">Hossain, A. R., <strong>Sagar, M. S. I.</strong>, Mertvyy, A. A., Sekhar, P. K., &amp; Karacolak, T.</div>
+            <div class="pub-venue">IEEE Access, 12, 2024.</div>
+            <div class="tag-list">
+              <span class="tag tag-cyan">Impact Factor: ~3.9</span>
+              <span class="tag tag-amber">Cited 20 times</span>
+            </div>
+          </article>
+
+          <article class="pub-item cat-journal">
+            <div class="pub-title">[6] Inkjet Printed Flexible High Isolation Patch Antenna for 5.8 GHz Full-Duplex Applications</div>
+            <div class="pub-authors">Hossain, A. R., <strong>Sagar, M. S. I.</strong>, Tran, N., Sekhar, P. K., &amp; Karacolak, T.</div>
+            <div class="pub-venue">Progress in Electromagnetics Research C, 127, 2022.</div>
+            <div class="tag-list">
+              <span class="tag tag-cyan">Impact Factor: ~1.6</span>
+              <span class
